@@ -12,8 +12,15 @@
 -moz-box-shadow: -6px 7px 9px -4px rgba(0,0,0,0.75);
 }
 
+img{
+  max-height: 368px;
+  max-width: 270px;
+}
+
 .img-comment{
-  height: 368px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 16px 0px 0px 16px;
 }
 
